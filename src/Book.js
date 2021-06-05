@@ -1,6 +1,6 @@
-function Book() {
+function Book(props) {
     return (
-        <h2>Viatge a la Lluna </h2>
+        <h2>{props.titol} </h2>
     )
 }
 
